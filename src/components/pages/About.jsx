@@ -54,7 +54,7 @@ export default function About() {
                         </div>
 
                         {/* Resume Download */}
-                        <a href={resume} download="Zaid-patel-resume" className='btn bg-gray-700 py-3 text-md text-white px-10 font-bold rounded-full block w-max ms-auto mt-12 flex items-center gap-2'>
+                        <a href={resume} download="Zaid-patel-resume" className='btn bg-gray-700 py-3 text-md text-white md:px-10 px-4 font-bold rounded-full block w-max ms-auto mt-12 flex items-center gap-2'>
                             <FaFileDownload className="text-white text-xl" />
                             Download my resume
                         </a>
