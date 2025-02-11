@@ -23,12 +23,12 @@ export default function Home({ siteProps }) {
                     <h1 className="md:text-5xl text-4xl font-bold mt-2">
                         <Typewriter
                             words={siteProps.title}
-                            loop={0}  // Infinite loop
+                            loop={0} 
                             cursor
                             cursorStyle="|"
                             typeSpeed={70}
                             deleteSpeed={50}
-                            delaySpeed={1500} // Time before deleting
+                            delaySpeed={1500}
                         />
                     </h1>
 
@@ -46,7 +46,7 @@ export default function Home({ siteProps }) {
                     <motion.a 
                         whileHover={{ scale: 1.05 }} 
                         whileTap={{ scale: 0.95 }} 
-                        href="#about" 
+                        href="#About" 
                         className="btn bg-black py-3 text-md text-white px-10 font-bold mt-4 rounded-full flex items-center gap-2 w-max"
                     >
                         <FaUser className="text-white text-lg" />
